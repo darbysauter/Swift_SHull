@@ -1,0 +1,334 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Delaunay"
+provides-nominal:
+- "5SHull8DelaunayC"
+provides-member:
+- ["5SHull8DelaunayC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "..."
+- !private "..<"
+- !private "/"
+- !private "<"
+- !private "<="
+- !private "=="
+- !private "==="
+- !private ">"
+- "ArraySlice"
+- "AssignmentPrecedence"
+- !private "Bool"
+- !private "BooleanLiteralType"
+- "Delaunay"
+- "Double"
+- !private "Edge"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "LinkedList"
+- "Point"
+- !private "StringLiteralType"
+- !private "Triangle"
+- !private "pow"
+- !private "print"
+- !private "||"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "greatestFiniteMagnitude"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["Sa", "swapAt"]
+- !private ["s10ArraySliceV", "dist"]
+- !private ["s10ArraySliceV", "sort"]
+- !private ["SK", "count"]
+- !private ["SK", "dist"]
+- !private ["SK", "sort"]
+- !private ["SK", "subscript"]
+- !private ["SK", "swapAt"]
+- !private ["SB", "greatestFiniteMagnitude"]
+- !private ["SB", "init"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "greatestFiniteMagnitude"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "swapAt"]
+- !private ["Sl", "count"]
+- !private ["Sl", "dist"]
+- !private ["Sl", "sort"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "swapAt"]
+- !private ["SL", "greatestFiniteMagnitude"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "dist"]
+- !private ["10Foundation15ContiguousBytesP", "sort"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "swapAt"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dist"]
+- !private ["s28CustomDebugStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "sort"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "swapAt"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "dist"]
+- !private ["s17CustomReflectableP", "greatestFiniteMagnitude"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "sort"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "swapAt"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dist"]
+- !private ["s23CustomStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "sort"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "swapAt"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "dist"]
+- !private ["10Foundation12DataProtocolP", "sort"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "swapAt"]
+- !private ["Se", "count"]
+- !private ["Se", "greatestFiniteMagnitude"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["Se", "swapAt"]
+- ["5SHull8DelaunayC", "ArraySlice"]
+- !private ["5SHull8DelaunayC", "Bool"]
+- !private ["5SHull8DelaunayC", "Delaunay"]
+- ["5SHull8DelaunayC", "Double"]
+- !private ["5SHull8DelaunayC", "Edge"]
+- !private ["5SHull8DelaunayC", "Flipdata"]
+- ["5SHull8DelaunayC", "Int"]
+- !private ["5SHull8DelaunayC", "LinkedList"]
+- ["5SHull8DelaunayC", "Point"]
+- !private ["5SHull8DelaunayC", "Triangle"]
+- ["5SHull8DelaunayC", "TriangulationData"]
+- ["5SHull8DelaunayC", "addPointsToHull"]
+- ["5SHull8DelaunayC", "delaunay"]
+- ["5SHull8DelaunayC", "findSmallestCircumcircle"]
+- ["5SHull8DelaunayC", "findSmallestDist"]
+- ["5SHull8DelaunayC", "init"]
+- ["5SHull8DelaunayC", "makeDelaunay"]
+- !private ["5SHull8DelaunayC", "mapFindHighestFlipcount"]
+- !private ["5SHull8DelaunayC", "mapFlipIfNecessary"]
+- !private ["5SHull8DelaunayC", "pow"]
+- !private ["5SHull8DelaunayC", "print"]
+- ["5SHull8DelaunayC", "radialSort"]
+- ["5SHull8DelaunayC", "seedTriangulation"]
+- ["5SHull8DelaunayC", "sqCircumradius"]
+- !private ["Sd", "greatestFiniteMagnitude"]
+- !private ["Sd", "init"]
+- !private ["5SHull4EdgeC", "init"]
+- !private ["5SHull4EdgeC", "p"]
+- !private ["5SHull4EdgeC", "t"]
+- !private ["SE", "count"]
+- !private ["SE", "greatestFiniteMagnitude"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "swapAt"]
+- !private ["SQ", "count"]
+- !private ["SQ", "dist"]
+- !private ["SQ", "greatestFiniteMagnitude"]
+- !private ["SQ", "init"]
+- !private ["SQ", "sort"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "swapAt"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "dist"]
+- !private ["s25ExpressibleByArrayLiteralP", "sort"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "swapAt"]
+- !private ["s25ExpressibleByFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "greatestFiniteMagnitude"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["5SHull8DelaunayC8FlipdataV", "flipped"]
+- !private ["5SHull8DelaunayC8FlipdataV", "init"]
+- !private ["SF", "greatestFiniteMagnitude"]
+- !private ["SF", "init"]
+- !private ["SH", "count"]
+- !private ["SH", "dist"]
+- !private ["SH", "greatestFiniteMagnitude"]
+- !private ["SH", "init"]
+- !private ["SH", "sort"]
+- !private ["SH", "subscript"]
+- !private ["SH", "swapAt"]
+- !private ["Si", "init"]
+- !private ["5SHull10LinkedListC", "cfind_r"]
+- !private ["5SHull10LinkedListC", "cutAfter"]
+- !private ["5SHull10LinkedListC", "cutBefore"]
+- !private ["5SHull10LinkedListC", "data"]
+- !private ["5SHull10LinkedListC", "glue"]
+- !private ["5SHull10LinkedListC", "insertAfter"]
+- !private ["5SHull10LinkedListC", "insertBefore"]
+- !private ["5SHull10LinkedListC", "length"]
+- !private ["5SHull10LinkedListC", "next"]
+- !private ["s25LosslessStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["SM", "dist"]
+- !private ["SM", "sort"]
+- !private ["SM", "subscript"]
+- !private ["SM", "swapAt"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "swapAt"]
+- !private ["Sj", "greatestFiniteMagnitude"]
+- !private ["Sj", "init"]
+- !private ["5SHull5PointC", "dist"]
+- !private ["5SHull5PointC", "findCenter"]
+- !private ["5SHull5PointC", "init"]
+- !private ["5SHull5PointC", "isNotVisible"]
+- !private ["5SHull5PointC", "isVisible"]
+- !private ["5SHull5PointC", "plane_cross"]
+- !private ["5SHull5PointC", "sqDist"]
+- !private ["5SHull5PointC", "x"]
+- !private ["5SHull5PointC", "y"]
+- !private ["Sk", "count"]
+- !private ["Sk", "dist"]
+- !private ["Sk", "sort"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "swapAt"]
+- !private ["Sm", "count"]
+- !private ["Sm", "dist"]
+- !private ["Sm", "sort"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "swapAt"]
+- !private ["s10SIMDScalarP", "greatestFiniteMagnitude"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "count"]
+- !private ["ST", "dist"]
+- !private ["ST", "sort"]
+- !private ["ST", "subscript"]
+- !private ["ST", "swapAt"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "greatestFiniteMagnitude"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "greatestFiniteMagnitude"]
+- !private ["Sx", "init"]
+- !private ["s20TextOutputStreamableP", "greatestFiniteMagnitude"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["5SHull8TriangleC", "e"]
+- !private ["5SHull8TriangleC", "init"]
+- !private ["5SHull8DelaunayC17TriangulationDataV", "hullEdges"]
+- !private ["5SHull8DelaunayC17TriangulationDataV", "internalEdges"]
+- !private ["5SHull8DelaunayC17TriangulationDataV", "triangles"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "dist"]
+- !private ["s14_ArrayProtocolP", "sort"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "swapAt"]
+- !private ["s15_CVarArgAlignedP", "greatestFiniteMagnitude"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "greatestFiniteMagnitude"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "greatestFiniteMagnitude"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "dist"]
+- !private ["s24_DestructorSafeContainerP", "sort"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "swapAt"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "greatestFiniteMagnitude"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "swapAt"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "greatestFiniteMagnitude"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "swapAt"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "greatestFiniteMagnitude"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "swapAt"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- "5SHull8DelaunayC"
+- !private "Sd"
+- !private "5SHull4EdgeC"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "5SHull8DelaunayC8FlipdataV"
+- !private "SF"
+- !private "SH"
+- !private "Si"
+- !private "5SHull10LinkedListC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- !private "5SHull5PointC"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- !private "5SHull8TriangleC"
+- !private "5SHull8DelaunayC17TriangulationDataV"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3ee7215acda463593bf9a240966788e2"

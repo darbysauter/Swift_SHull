@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "404aad4006b621029df205f245cb7b69"
+build_time: [1557952104, 339186000]
+inputs:
+  "/Users/mumphus/Documents/products/SHull/Sources/SHull/Delaunay+Geometry.swift": [9223372036, 854775807]
+  "/Users/mumphus/Documents/products/SHull/Sources/SHull/Delaunay+Structs.swift": [9223372036, 854775807]
+  "/Users/mumphus/Documents/products/SHull/Sources/SHull/Delaunay+Utils.swift": [9223372036, 854775807]
+  "/Users/mumphus/Documents/products/SHull/Sources/SHull/Delaunay.swift": [9223372036, 854775807]
+  "/Users/mumphus/Documents/products/SHull/Sources/SHull/LinkedList.swift": [9223372036, 854775807]
+  "/Users/mumphus/Documents/products/SHull/Sources/SHull/SHull.swift": [1557952069, 44520863]

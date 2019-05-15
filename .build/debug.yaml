@@ -1,0 +1,65 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "main": ["/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.swiftmodule","<SHull-debug.module>"]
+  "test": ["/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.swiftmodule","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullPackageTests.xctest/Contents/MacOS/SHullPackageTests","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullTests.swiftmodule","<SHull-debug.module>","<SHullPackageTests-debug.test>","<SHullTests-debug.module>"]
+  "SHull-debug.module": ["/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.swiftmodule","<SHull-debug.module>"]
+  "SHullPackageTests-debug.test": ["/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullPackageTests.xctest/Contents/MacOS/SHullPackageTests","<SHullPackageTests-debug.test>"]
+  "SHullTests-debug.module": ["/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullTests.swiftmodule","<SHullTests-debug.module>"]
+default: "main"
+commands: 
+  "<C.SHull-debug.module>":
+    tool: phony
+    inputs: ["/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.swiftmodule"]
+    outputs: ["<SHull-debug.module>"]
+
+  "<C.SHullPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullPackageTests.xctest/Contents/MacOS/SHullPackageTests"]
+    outputs: ["<SHullPackageTests-debug.test>"]
+
+  "<C.SHullTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullTests.swiftmodule"]
+    outputs: ["<SHullTests-debug.module>"]
+
+  "C.SHull-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "SHull"
+    module-output-path: "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.swiftmodule"
+    inputs: ["/Users/mumphus/Documents/products/SHull/Sources/SHull/Delaunay+Geometry.swift","/Users/mumphus/Documents/products/SHull/Sources/SHull/Delaunay+Structs.swift","/Users/mumphus/Documents/products/SHull/Sources/SHull/Delaunay+Utils.swift","/Users/mumphus/Documents/products/SHull/Sources/SHull/Delaunay.swift","/Users/mumphus/Documents/products/SHull/Sources/SHull/LinkedList.swift","/Users/mumphus/Documents/products/SHull/Sources/SHull/SHull.swift"]
+    outputs: ["/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Geometry.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Structs.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Utils.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/LinkedList.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/SHull.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.swiftmodule"]
+    import-paths: ["/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build"
+    objects: ["/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Geometry.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Structs.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Utils.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/LinkedList.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/SHull.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/ModuleCache","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/mumphus/Documents/products/SHull/Sources/SHull/Delaunay+Geometry.swift","/Users/mumphus/Documents/products/SHull/Sources/SHull/Delaunay+Structs.swift","/Users/mumphus/Documents/products/SHull/Sources/SHull/Delaunay+Utils.swift","/Users/mumphus/Documents/products/SHull/Sources/SHull/Delaunay.swift","/Users/mumphus/Documents/products/SHull/Sources/SHull/LinkedList.swift","/Users/mumphus/Documents/products/SHull/Sources/SHull/SHull.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "C.SHullPackageTests-debug.test":
+    tool: shell
+    description: "Linking ./.build/x86_64-apple-macosx/debug/SHullPackageTests.xctest/Contents/MacOS/SHullPackageTests"
+    inputs: ["/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Geometry.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Structs.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Utils.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/LinkedList.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/SHull.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullTests.build/SHullTests.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullTests.build/XCTestManifests.swift.o"]
+    outputs: ["/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullPackageTests.xctest/Contents/MacOS/SHullPackageTests"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-L","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug","-o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullPackageTests.xctest/Contents/MacOS/SHullPackageTests","-module-name","SHullPackageTests","-Xlinker","-bundle","@/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullPackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx"]
+
+  "C.SHullTests-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "SHullTests"
+    module-output-path: "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullTests.swiftmodule"
+    inputs: ["/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.swiftmodule","/Users/mumphus/Documents/products/SHull/Tests/SHullTests/SHullTests.swift","/Users/mumphus/Documents/products/SHull/Tests/SHullTests/XCTestManifests.swift"]
+    outputs: ["/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullTests.build/SHullTests.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullTests.build/XCTestManifests.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullTests.swiftmodule"]
+    import-paths: ["/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullTests.build"
+    objects: ["/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullTests.build/SHullTests.swift.o","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHullTests.build/XCTestManifests.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/ModuleCache","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/mumphus/Documents/products/SHull/Tests/SHullTests/SHullTests.swift","/Users/mumphus/Documents/products/SHull/Tests/SHullTests/XCTestManifests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+

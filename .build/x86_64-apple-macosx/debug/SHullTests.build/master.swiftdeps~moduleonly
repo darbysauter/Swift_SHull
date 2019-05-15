@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "bc10149025f8fd9b1853767e4f487eb3"
+build_time: [1557952109, 548513000]
+inputs:
+  "/Users/mumphus/Documents/products/SHull/Tests/SHullTests/SHullTests.swift": [1557952101, 494545568]
+  "/Users/mumphus/Documents/products/SHull/Tests/SHullTests/XCTestManifests.swift": [1557951920, 480139717]

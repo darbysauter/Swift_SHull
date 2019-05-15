@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/master.swiftdeps"
+  },
+  "/Users/mumphus/Documents/products/SHull/Sources/SHull/Delaunay+Geometry.swift": {
+    "dependencies": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Geometry.d",
+    "object": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Geometry.swift.o",
+    "swiftmodule": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Geometry~partial.swiftmodule",
+    "swift-dependencies": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Geometry.swiftdeps"
+  },
+  "/Users/mumphus/Documents/products/SHull/Sources/SHull/Delaunay+Structs.swift": {
+    "dependencies": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Structs.d",
+    "object": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Structs.swift.o",
+    "swiftmodule": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Structs~partial.swiftmodule",
+    "swift-dependencies": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Structs.swiftdeps"
+  },
+  "/Users/mumphus/Documents/products/SHull/Sources/SHull/Delaunay+Utils.swift": {
+    "dependencies": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Utils.d",
+    "object": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Utils.swift.o",
+    "swiftmodule": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Utils~partial.swiftmodule",
+    "swift-dependencies": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay+Utils.swiftdeps"
+  },
+  "/Users/mumphus/Documents/products/SHull/Sources/SHull/Delaunay.swift": {
+    "dependencies": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay.d",
+    "object": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay.swift.o",
+    "swiftmodule": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay~partial.swiftmodule",
+    "swift-dependencies": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/Delaunay.swiftdeps"
+  },
+  "/Users/mumphus/Documents/products/SHull/Sources/SHull/LinkedList.swift": {
+    "dependencies": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/LinkedList.d",
+    "object": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/LinkedList.swift.o",
+    "swiftmodule": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/LinkedList~partial.swiftmodule",
+    "swift-dependencies": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/LinkedList.swiftdeps"
+  },
+  "/Users/mumphus/Documents/products/SHull/Sources/SHull/SHull.swift": {
+    "dependencies": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/SHull.d",
+    "object": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/SHull.swift.o",
+    "swiftmodule": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/SHull~partial.swiftmodule",
+    "swift-dependencies": "/Users/mumphus/Documents/products/SHull/.build/x86_64-apple-macosx/debug/SHull.build/SHull.swiftdeps"
+  }
+}
